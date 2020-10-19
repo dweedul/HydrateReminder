@@ -15,7 +15,7 @@ namespace HyrdateReminder
                 SendToastNotification();
 
                 // Notification doesn't show without a sleep.
-                Thread.Sleep(1000);
+                Thread.Sleep(5000);
             }
             catch (Exception e)
             {
